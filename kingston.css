@@ -1,0 +1,713 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@font-face {
+  font-family: mecury;
+  src: url("Mercury Regular.otf");
+}
+
+body {
+font-family: mecury;
+		margin: 0px;
+}
+.invisible {
+	font-size: 0px;
+}
+ /* unvisited link */
+a:link {
+  text-decoration: none;
+
+}
+
+/* visited link */
+a:visited {
+text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+text-decoration: none;
+	filter: brightness(70%);
+}
+
+/* selected link */
+a:active {
+text-decoration: none;
+} 
+.welcome {
+	font-size: 22px;
+	padding-left: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.block {
+	height: 1500px;
+	width: 500px;
+	background-color: none;
+
+}
+.klogo {
+	position: fixed;
+	left: 2%;
+	top:3%;
+	z-index: 200;
+	width: 6%;
+}
+.logoadjust {
+	position: relative;
+	left: -21px;
+}
+.gifsection img{
+
+filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 0.5s ease;
+}
+
+.gifsection img:hover{filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 0.5s ease;
+}
+
+.button {
+	border: 0px;
+	width: 0px;
+}
+.whitesmall {
+	height: 40px;
+	color: white;
+} 
+.whitemed {
+	height: 80px;
+	color: white;
+} 
+.whitebig {
+	height: 100px;
+	color: white;
+} 
+.gifsection {
+	width: 75%;
+	position: fixed;
+	background-color: white;
+	top: 0px;
+	left: 25%;
+	height: 100%;
+	z-index: 1;
+	overflow-y: scroll;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0%;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 17%; /* IE10 */
+  flex: 17%;
+  max-width: 17%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+	margin: 10px;
+}
+.leftstrip {
+	width: 25%;
+	position: fixed;
+	margin: 0px;
+	background-color: none;
+	height: 65%;
+	font-size: 35px;
+	left: 2%;
+	bottom:0%;
+}
+.specgif{
+	position: absolute;
+	bottom: 0%;
+	
+}
+.leftstripstudent {
+	width: 25%;
+	position: fixed;
+	margin: 0px;
+	background-color: white;
+	height: 58%;
+	font-size: 35px;
+	left: 2%;
+	bottom: 6%;
+	z-index: 1;
+}
+.indent {
+	margin-left: 30%;
+}
+
+.year {
+	color: blue;
+	font-size: 5vw;
+	position: fixed;
+	top: 16%;
+	left: 15%;
+	line-height: 100%;
+	z-index: 10;
+	
+}
+.logo {
+	z-index: 10;
+	position: fixed;
+	top: 20%;
+	left: 2%;
+	width: 10%;
+}
+.names {
+	height: 100%;
+	overflow-y: scroll;
+	position: absolute;
+	left: 15%;
+	top: 1.5%;
+width: 250px;
+	background-color: none;
+	font-size: 16px;
+
+	
+}
+.namesstudentpage {
+	height: 90%;
+	overflow-y: scroll;
+	position: absolute;
+	left: 2%;
+	top: 15%;
+width: 200px;
+	font-size: 16px;
+	background-color: white;
+
+	
+}
+.fineart {
+	color: red;
+}
+
+.viscom {
+	color: lime;
+}
+.threed {
+	color: magenta;
+}
+.fashion {
+	color: blue;
+}
+.fineartborder {
+	border-style: solid;
+  border-color: red;
+	color: red;
+}
+.viscomborder {
+	color: lime;
+	border-style: solid;
+  border-color: lime;
+}
+.threedborder {
+	color: magenta;
+	border-style: solid;
+  border-color: magenta;
+}
+.fashionborder {
+	color: blue;
+	border-style: solid;
+  border-color: blue;
+}
+.fineartopentext {
+color: red;
+font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+		padding-bottom: 5px;
+}
+.viscomopentext {
+	color: lime;
+font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+		padding-bottom: 5px;
+}
+
+.threedopentext {
+	color: magenta;
+font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+		padding-bottom: 5px;
+}
+
+.fashionopentext{
+	color: blue;
+font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+		padding-bottom: 5px;
+}
+	
+.contentsection {
+	width: 75%;
+	position: fixed;
+	
+	top: 7%;
+padding: 0%;
+	right: 0%;
+	height: 93%;
+	z-index: 300;
+	overflow-y: scroll;
+	float: right;
+	background-color: none;
+	margin-bottom: 5%;
+}
+
+.content1fashion{
+	width: 853px;
+	height: 505px;
+	float: right;
+	margin: 2%;
+	display: block;
+		padding: 0px;
+	vertical-align:bottom;
+	
+}
+.content1fashioninner{
+	border-style: solid;
+	display: block;
+	background-color: blue;
+	margin: 0%;
+	float: left;
+	border-top: 4px solid blue;
+	border-left: 4px solid blue;
+	border-right: 4px solid blue;
+	border-bottom: 0px;
+  border-color: blue;
+		padding: 0px;
+	vertical-align:bottom;
+}
+.content2fashion{
+width: 853px;
+	height: 505px;
+	float: right;
+	margin: 2%;
+	display: block;
+		padding: 0px;
+	vertical-align:bottom;
+}
+.content2fashioninner{
+	border-style: solid;
+	display: block;
+		border-top: 4px solid blue;
+	border-left: 4px solid blue;
+	border-right: 4px solid blue;
+	border-bottom: 0px;
+  border-color: blue;
+	background-color: blue;
+	margin: 0%;
+	float: left;
+
+		padding: 0px;
+	vertical-align:bottom;
+}
+.content3fashion{
+	width: 853px;
+	height: 505px;
+	float: right;
+	margin: 2%;
+	display: block;
+		padding: 0px;
+	vertical-align:bottom;
+	
+}
+.content3fashioninner{
+	border-style: solid;
+	display: block;
+		border-top: 4px solid blue;
+	border-left: 4px solid blue;
+	border-right: 4px solid blue;
+	border-bottom: 0px;
+  border-color: blue;
+	background-color: blue;
+	margin: 0%;
+	float: left;
+	padding: 0px;
+	vertical-align:bottom;
+}
+.content1fineart{
+	width: 853px;
+	height: 505px;
+	float: right;
+	margin: 2%;
+	display: block;
+	vertical-align:bottom;
+	
+}
+.content1fineartinner{
+	border-style: solid;
+	display: block;
+		border-top: 4px solid red;
+	border-left: 4px solid red;
+	border-right: 4px solid red;
+	border-bottom: 0px;
+	background-color: red;
+	margin: 0%;
+	float: left;
+	padding: 0px;
+	vertical-align:bottom;
+}
+.content2fineart{
+width: 853px;
+	height: 505px;
+	float: right;
+	margin: 2%;
+	display: block;
+		padding: 0px;
+	vertical-align:bottom;
+}
+.content2fineartinner{
+		border-style: solid;
+	display: block;
+		border-top: 4px solid red;
+	border-left: 4px solid red;
+	border-right: 4px solid red;
+	border-bottom: 0px;
+	background-color: red;
+	margin: 0%;
+	float: left;
+	padding: 0px;
+	vertical-align:bottom;
+}
+.content3fineart{
+	width: 853px;
+	height: 505px;
+	float: right;
+	margin: 2%;
+	display: block;
+		padding: 0px;
+	vertical-align:bottom;
+	
+}
+.content3fineartinner{
+		border-style: solid;
+	display: block;
+		border-top: 4px solid red;
+	border-left: 4px solid red;
+	border-right: 4px solid red;
+	border-bottom: 0px;
+	background-color: red;
+	margin: 0%;
+	float: left;
+	padding: 0px;
+	vertical-align:bottom;
+}
+.content1viscom{
+	width: 853px;
+	height: 505px;
+	float: right;
+	margin: 2%;
+	display: block;
+		padding: 0px;
+	vertical-align:bottom;
+	
+	
+}
+.content1viscominner{
+			border-style: solid;
+	display: block;
+		border-top: 4px solid lime;
+	border-left: 4px solid lime;
+	border-right: 4px solid lime;
+	border-bottom: 0px;
+	background-color: lime;
+	margin: 0%;
+	float: left;
+	padding: 0px;
+	vertical-align:bottom;
+
+}
+.content2viscom{
+width: 853px;
+	height: 505px;
+	float: right;
+	margin: 2%;
+	display: block;
+		padding: 0px;
+	vertical-align:bottom;
+}
+.content2viscominner{
+		border-style: solid;
+	display: block;
+		border-top: 4px solid lime;
+	border-left: 4px solid lime;
+	border-right: 4px solid lime;
+	border-bottom: 0px;
+	background-color: lime;
+	margin: 0%;
+	float: left;
+	padding: 0px;
+	vertical-align:bottom;
+}
+.content3viscom{
+	width: 853px;
+	height: 505px;
+	float: right;
+	margin: 2%;
+	display: block;
+		padding: 0px;
+	vertical-align:bottom;
+	
+}
+.content3viscominner{
+		border-style: solid;
+	display: block;
+		border-top: 4px solid lime;
+	border-left: 4px solid lime;
+	border-right: 4px solid lime;
+	border-bottom: 0px;
+	background-color: lime;
+	margin: 0%;
+	float: left;
+	padding: 0px;
+	vertical-align:bottom;
+}
+.content13d{
+	width: 853px;
+	height: 505px;
+	float: right;
+	margin: 2%;
+	display: block;
+		padding: 0px;
+	vertical-align:bottom;
+	
+}
+.content13dinner{
+border-style: solid;
+	display: block;
+		border-top: 4px solid magenta;
+	border-left: 4px solid magenta;
+	border-right: 4px solid magenta;
+	border-bottom: 0px;
+	background-color: magenta;
+	margin: 0%;
+	float: left;
+	padding: 0px;
+	vertical-align:bottom;
+}
+.content23d{
+width: 853px;
+	height: 505px;
+	float: right;
+	margin: 2%;
+	display: block;
+		padding: 0px;
+	vertical-align:bottom;
+}
+.content23dinner{
+	border-style: solid;
+	display: block;
+		border-top: 4px solid magenta;
+	border-left: 4px solid magenta;
+	border-right: 4px solid magenta;
+	border-bottom: 0px;
+	background-color: magenta;
+	margin: 0%;
+	float: left;
+	padding: 0px;
+	vertical-align:bottom;
+}
+.content33d{
+	width: 853px;
+	height: 505px;
+	float: right;
+	margin: 2%;
+	display: block;
+		padding: 0px;
+	vertical-align:bottom;
+}
+.content33dinner{
+	border-style: solid;
+	display: block;
+		border-top: 4px solid magenta;
+	border-left: 4px solid magenta;
+	border-right: 4px solid magenta;
+	border-bottom: 0px;
+	background-color: magenta;
+	margin: 0%;
+	float: left;
+	padding: 0px;
+	vertical-align:bottom;
+}
+.studentname {
+	font-size: 40px;
+	position: fixed;
+	background-color: none;
+	padding-top: 2px;
+	left: 3%;
+	top: 35%;
+	z-index: 5000;
+	
+}
+.studentdetails {
+	font-size:16px;
+	position: fixed;
+	background-color: none;
+	padding: 2px;
+	left: 17%;
+	top: 45%;
+	width: 20%;
+	z-index: 100;
+}
+
+/* -----sidepanel bits -----*/
+
+ /* The sidepanel menu */
+.sidepanel {
+  height: 57%; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  bottom: 2%;
+  left: 0;
+  background-color: #fff; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+ 
+  text-decoration: none;
+  
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+filter: brightness(50%);
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: -15px;
+  right: 0px;
+  font-size: 36px;
+  margin-left: 0px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  color: white;
+position: fixed;
+	width:9%;
+	left: 2%;
+	top:17%;
+  border: none;
+	z-index: 100;
+}
+
+.openbtn:hover {
+ -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(50%);
+		z-index: 100;
+} 
+button {
+	margin: 0px;
+	padding: 0px;
+	vertical-align: bottom;
+}
+.backhome {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  color: white;
+position: fixed;
+	width:9%;
+	left: 2%;
+	top:17%;
+  border: none;
+	z-index: 100;
+	
+}
+
+.backhome:hover {
+ -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(50%);
+		z-index: 100;
+} 
+.extra {
+	font-size: 35px;
+}
+/* ------modal intro bits------*/
+/* The Modal (background) */
+.modal {
+  display: inline; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(355,355,355,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: none;
+  position: absolute;
+	left:36%;
+  padding: 2%;
+  border: 0px solid #888;
+  width: 60%;
+	height: 100%;
+	color: black;
+	font-size: 30px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 50px;
+  font-weight: normal;
+	position: absolute;
+	right: 2%;
+	top: -100px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.holding {
+	font-size: 50px;
+	position: absolute;
+	top: 15%;
+	left: 5%;
+}
+.iframe {
+	z-index: 1100;
+}
